@@ -26,9 +26,11 @@ If you have questions concerning this license or the applicable additional terms
 ===========================================================================
 */
 
-#include "precompiled.h"
 #pragma hdrstop
-
+#include "CmdArgs.h"
+#include "Token.h"
+#include "Lexer.h"
+#include "Lib.h"
 /*
 ============
 idCmdArgs::operator=
@@ -146,8 +148,8 @@ void idCmdArgs::TokenizeString( const char *text, bool keepAsStrings ) {
 			if ( !lex.ReadToken( &token ) ) {
 				return;
 			}
-			if ( idLib::cvarSystem ) {
-				token = idLib::cvarSystem->GetCVarString( token.c_str() );
+			if ( cvarSearch ) {
+				token = cvarSearch( token.c_str() );
 			} else {
 				token = "<unknown>";
 			}

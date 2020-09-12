@@ -28,7 +28,7 @@ If you have questions concerning this license or the applicable additional terms
 
 #ifndef __MATH_MATH_H__
 #define __MATH_MATH_H__
-
+#include "idLib.h"
 #ifdef MACOS_X
 // for square root estimate instruction
 #ifdef PPC_INTRINSICS

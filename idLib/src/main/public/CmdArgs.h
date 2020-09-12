@@ -28,7 +28,7 @@ If you have questions concerning this license or the applicable additional terms
 
 #ifndef __CMDARGS_H__
 #define __CMDARGS_H__
-
+#include "Lib.h"
 /*
 ===============================================================================
 
@@ -60,7 +60,7 @@ public:
 	void					AppendArg( const char *text );
 	void					Clear( void ) { argc = 0; }
 	const char **			GetArgs( int *argc );
-
+	const char* (cvarSearch)(const char*);
 private:
 	static const int		MAX_COMMAND_ARGS = 64;
 	static const int		MAX_COMMAND_STRING = 2 * MAX_STRING_CHARS;
@@ -68,6 +68,7 @@ private:
 	int						argc;								// number of arguments
 	char *					argv[MAX_COMMAND_ARGS];				// points into tokenized
 	char					tokenized[MAX_COMMAND_STRING];		// will have 0 bytes inserted
+	
 };
 
 #endif /* !__CMDARGS_H__ */

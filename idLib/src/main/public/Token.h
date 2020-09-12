@@ -29,6 +29,7 @@ If you have questions concerning this license or the applicable additional terms
 #ifndef __TOKEN_H__
 #define __TOKEN_H__
 
+#include "Str.h"
 /*
 ===============================================================================
 

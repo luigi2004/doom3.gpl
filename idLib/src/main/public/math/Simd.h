@@ -63,23 +63,10 @@ public:
 #define VPCALL
 #endif
 
-class idVec2;
-class idVec3;
-class idVec4;
-class idVec5;
-class idVec6;
-class idVecX;
-class idMat2;
-class idMat3;
-class idMat4;
-class idMat5;
-class idMat6;
-class idMatX;
-class idPlane;
-class idDrawVert;
-class idJointQuat;
-class idJointMat;
-struct dominantTri_s;
+#include "Vector.h"
+#include "Matrix.h"
+#include "Plane.h"
+#include "Quat.h"
 
 const int MIXBUFFER_SAMPLES = 4096;
 

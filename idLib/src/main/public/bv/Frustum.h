@@ -28,6 +28,9 @@ If you have questions concerning this license or the applicable additional terms
 
 #ifndef __BV_FRUSTUM_H__
 #define __BV_FRUSTUM_H__
+#include "idLib.h"
+#include "Bounds.h"
+#include "Box.h"
 
 /*
 ===============================================================================

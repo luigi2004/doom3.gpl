@@ -25,7 +25,11 @@ If you have questions concerning this license or the applicable additional terms
 
 ===========================================================================
 */
-
+#include "idLib.h"
+#include "Vector.h"
+#include "Plane.h"
+#include "Sphere.h"
+#include "Rotation.h"
 #ifndef __BV_BOUNDS_H__
 #define __BV_BOUNDS_H__
 

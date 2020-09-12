@@ -25,7 +25,10 @@ If you have questions concerning this license or the applicable additional terms
 
 ===========================================================================
 */
-
+#include "Matrix.h"
+#include "Vector.h"
+#include "Bounds.h"
+#include "Plane.h"
 #ifndef __BV_BOX_H__
 #define __BV_BOX_H__
 

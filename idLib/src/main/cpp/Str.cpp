@@ -25,10 +25,10 @@ If you have questions concerning this license or the applicable additional terms
 
 ===========================================================================
 */
-
-#include "precompiled.h"
 #pragma hdrstop
-
+#include "Str.h"
+#include "Vector.h"
+#include "Lib.h"
 #if !defined( ID_REDIRECT_NEWDELETE ) && !defined( MACOS_X )
 	#define USE_STRING_DATA_ALLOCATOR
 #endif

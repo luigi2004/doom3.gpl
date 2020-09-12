@@ -25,10 +25,10 @@ If you have questions concerning this license or the applicable additional terms
 
 ===========================================================================
 */
-
+#include "Vector.h"
 #ifndef __MATH_MATRIX_H__
 #define __MATH_MATRIX_H__
-
+#include "idLib.h"
 /*
 ===============================================================================
 
