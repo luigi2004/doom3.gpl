@@ -1,5 +1,6 @@
 #pragma once
 
+#define  NULL  0
 using sint = signed int;
 using uint = unsigned int;
 
